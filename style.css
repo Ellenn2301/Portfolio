@@ -1,0 +1,152 @@
+ /*Assim colocamos comentários aqui.*/
+ /*elemento {} propriedade: valor;*/
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+ li{
+   list-style: none;
+   display: inline;
+   margin-right: 40px;
+ }
+ .inicio{
+   background-color:#5713EF;
+   height: 103px;
+   width: 100%;
+   display: flex;
+   align-items: center; /*deixar centralizado no nav*/
+   justify-content: flex-end;
+ }
+ .menu li>a{
+   color:#ffffff;
+   font-size: 20px;
+   margin-right: 40px;
+   text-decoration: none;
+ }
+ h1{
+   text-align: center;
+   color:#A633F5;
+   font-size: 36px;
+   font-weight: 700;
+ }
+.perfil{
+   background-color:#ffffff;
+   height: 450px;
+   text-align: center;
+}
+.minha-descricao{
+   font-size: 16px;
+   width: 490px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 21px;
+}
+img{
+   margin-top: 48px;
+   margin-bottom: 26px;
+   width: 170px;
+   height: 170px;
+}
+.profissao{
+   font-size: 20px;
+   color: #8a8989;
+   font-weight: 700;
+}
+#formacao{
+   height: 500px;
+   width: 500x;
+   background-color:#f3f3f3;
+   max-width: 100%;
+}
+.container{
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:86px;
+   max-width: 700px;
+}
+.artigo-formacao{
+   display:flex;
+   flex-direction:column;
+   margin-bottom: 100px;
+}
+.titulo-secao{
+   font-size: 24px;
+   font-weight: 700;
+   color: #A633F5;
+   margin-bottom: 50px;
+   margin-top: 40px;
+}
+.lista-formacao{
+   padding-left: 32px;
+}
+.titulo-formacao{
+   font-size: 18px;
+   color:#8a8989;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+.link-formacao{
+   color:#A633F5;
+   font-size: 14px;
+}
+.descricao-formacao{
+   font-size: 16px;
+   margin-top: 8px;
+   margin-bottom: 53px;
+   text-align: justify;
+}
+#portfolio{
+   width: 500px;
+   height: 450px;
+}
+.container2{
+   margin-left: 320px;
+   margin-right: 300px;
+   width: 720px;
+   height: 400px;
+}
+.artigo-projetos{
+   display: flex;
+   flex-direction: column;
+}
+.lista-projeto{
+   margin-left: 32px;
+}
+.tipo-projeto{
+   color: #661E4B;
+   font-weight: 600;
+   font-size: 18px;
+   font-family: Open sans;
+   margin-bottom: 10px;
+}
+.link-projeto{
+   color:#A633F5;
+}
+.descricao-projeto{
+   margin-top: 5px;
+   text-align: justify;
+   font-size: 16px;
+   margin-bottom: 50px;
+}
+#rodape{
+   display: flex;
+   align-items: center;
+   background-color: #9d80db;
+   height: 198px;
+}
+.lista-rodape li{
+   font-size:18px;
+   margin-bottom:28px;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+}
+.container-rodape{
+   margin-left: 60px;
+}
+.icone{
+   margin-right: 10px;
+   height: 24.5px;
+   width:24.5px;
+}
