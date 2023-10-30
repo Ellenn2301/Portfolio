@@ -11,8 +11,8 @@
    margin-right: 40px;
  }
  .inicio{
-   background-color:#5713EF;
-   height: 103px;
+   background-color:#EA9E0E;
+   height: 100px;
    width: 100%;
    display: flex;
    align-items: center; /*deixar centralizado no nav*/
@@ -26,13 +26,14 @@
  }
  h1{
    text-align: center;
-   color:#A633F5;
+   color:#F03635;
    font-size: 36px;
    font-weight: 700;
  }
 .perfil{
    background-color:#ffffff;
    height: 450px;
+   max-width: 100%;
    text-align: center;
 }
 .minha-descricao{
@@ -45,8 +46,10 @@
 img{
    margin-top: 48px;
    margin-bottom: 26px;
-   width: 170px;
-   height: 170px;
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   box-shadow: rgba(56, 56, 63, 0.2) 0px 7px 29px 0px;
 }
 .profissao{
    font-size: 20px;
@@ -55,7 +58,6 @@ img{
 }
 #formacao{
    height: 500px;
-   width: 500x;
    background-color:#f3f3f3;
    max-width: 100%;
 }
@@ -73,12 +75,13 @@ img{
 .titulo-secao{
    font-size: 24px;
    font-weight: 700;
-   color: #A633F5;
+   color: #F03635;
    margin-bottom: 50px;
    margin-top: 40px;
 }
 .lista-formacao{
    padding-left: 32px;
+   display: flex;
 }
 .titulo-formacao{
    font-size: 18px;
@@ -87,7 +90,7 @@ img{
    margin-bottom: 10px;
 }
 .link-formacao{
-   color:#A633F5;
+   color:#F09835;
    font-size: 14px;
 }
 .descricao-formacao{
@@ -97,31 +100,38 @@ img{
    text-align: justify;
 }
 #portfolio{
-   width: 500px;
-   height: 450px;
+   max-width: 100%;
+   height: 500px;
 }
 .container2{
-   margin-left: 320px;
-   margin-right: 300px;
-   width: 720px;
-   height: 400px;
+   margin-top: 86px;
+   max-width: 700px;
+   margin-left: auto;
+   margin-right: auto;
 }
-.artigo-projetos{
+.artigo-projeto{
    display: flex;
    flex-direction: column;
+   margin-bottom: 50px;
 }
 .lista-projeto{
-   margin-left: 32px;
+   padding-left: 32px;
+}
+.titulo-projeto{
+   color:#F03635;
+   margin-bottom: 40px;
+   font-size: 24px;
+   font-weight: 700;
 }
 .tipo-projeto{
-   color: #661E4B;
+   color: #8a8989;
    font-weight: 600;
    font-size: 18px;
    font-family: Open sans;
    margin-bottom: 10px;
 }
 .link-projeto{
-   color:#A633F5;
+   color:#F09835;
 }
 .descricao-projeto{
    margin-top: 5px;
@@ -132,8 +142,9 @@ img{
 #rodape{
    display: flex;
    align-items: center;
-   background-color: #9d80db;
+   background-color: #EA9E0E;
    height: 198px;
+   max-width: 100%;
 }
 .lista-rodape li{
    font-size:18px;
@@ -149,4 +160,8 @@ img{
    margin-right: 10px;
    height: 24.5px;
    width:24.5px;
+}
+.redes{
+   color: #ffffff;
+   text-decoration: none;
 }
